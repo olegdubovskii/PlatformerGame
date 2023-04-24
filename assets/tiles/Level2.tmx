@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="24" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="76">
+ <tileset firstgid="1" source="[32x32] Dungeon Bricks Shadow.tsx"/>
+ <tileset firstgid="57" source="[32x32] Dungeon Bricks Plain.tsx"/>
+ <tileset firstgid="113" source="../../../flutterapps/game_app/assets/tiles/Larry_No_Background.tsx"/>
+ <tileset firstgid="1013" source="../../../flutterapps/game_app/assets/tiles/Full.tsx"/>
+ <tileset firstgid="1069" source="Full.tsx"/>
+ <tileset firstgid="1125" source="AnimationSheet_Character.tsx"/>
+ <tileset firstgid="1197" source="Pixel Heart Sprite Sheet 32x32.tsx"/>
+ <tileset firstgid="1200" source="Spike_Pixel.tsx"/>
+ <tileset firstgid="1201" source="4 Conjoined Spikes.tsx"/>
+ <layer id="1" name="Слой тайлов 1" width="24" height="16">
+  <data encoding="base64">
+   PAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAA8AAAACgAAAAoAAAAKAAAACgAAAAoAAAA8AAAACgAAAAoAAAAKAAAACgAAAAoAAAA8AAAAPAAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAA8AAAACgAAAAoAAAAKAAAACgAAAAoAAAA8AAAACgAAAAoAAAAKAAAACgAAAAoAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAACgAAAAoAAAA8AAAACgAAAAoAAAAKAAAACgAAAAoAAAA8AAAACgAAAAoAAAAKAAAACgAAAAoAAAA8AAAAPAAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAA8AAAAPAAAADwAAAA8AAAACgAAAAoAAAA8AAAACgAAAAoAAAA8AAAAPAAAADwAAAA8AAAAPAAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAA8AAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAA8AAAAPAAAAAoAAAAKAAAACgAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAA8AAAAPAAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAACgAAAAoAAAA8AAAAPAAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAAPAAAAAoAAAAKAAAACgAAAAoAAAA8AAAAPAAAADwAAAA8AAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAAPAAAAAoAAAAKAAAAPAAAADwAAAA8AAAAPAAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAAPAAAAAoAAAAKAAAACgAAAAoAAAA8AAAAPAAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAAPAAAADwAAAA8AAAACgAAAAoAAAA8AAAAPAAAAAoAAAAKAAAACgAAAAoAAAA8AAAAPAAAADwAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAA8AAAAPAAAADwAAAA8AAAACgAAAAoAAAA8AAAAPAAAADwAAAAKAAAACgAAAAoAAAA8AAAAPAAAADwAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAACgAAAAoAAAA8AAAAPAAAADwAAAAKAAAACgAAAAoAAAA8AAAAPAAAADwAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAA
+  </data>
+ </layer>
+ <objectgroup id="2" name="SpawnPoints">
+  <object id="1" type="Player" gid="143" x="32" y="384" width="32" height="32"/>
+  <object id="2" type="Exit" gid="1047" x="672" y="128" width="64" height="64">
+   <properties>
+    <property name="NextLevel" value="Level3.tmx"/>
+   </properties>
+  </object>
+  <object id="48" type="Barrel" gid="1075" x="352" y="416" width="32" height="32"/>
+  <object id="50" type="Barrel" gid="1075" x="384" y="416" width="32" height="32"/>
+  <object id="51" type="Barrel" gid="1075" x="416" y="416" width="32" height="32"/>
+  <object id="52" type="Barrel" gid="1075" x="608" y="352" width="32" height="32"/>
+  <object id="53" type="Barrel" gid="1075" x="704" y="288" width="32" height="32"/>
+  <object id="54" type="Barrel" gid="1075" x="448" y="128" width="32" height="32"/>
+  <object id="55" type="Barrel" gid="1075" x="416" y="128" width="32" height="32"/>
+  <object id="57" type="Barrel" gid="1075" x="96" y="96" width="32" height="32"/>
+  <object id="58" type="Barrel" gid="1075" x="64" y="96" width="32" height="32"/>
+  <object id="59" type="Chest" gid="1089" x="32" y="96" width="32" height="32"/>
+  <object id="63" type="Enemy1" gid="1134" x="448" y="480" width="32" height="32">
+   <properties>
+    <property name="TargetPoint" type="object" value="66"/>
+   </properties>
+  </object>
+  <object id="65" type="Enemy1" gid="1134" x="384" y="224" width="32" height="32">
+   <properties>
+    <property name="TargetPoint" type="object" value="67"/>
+   </properties>
+  </object>
+  <object id="66" x="640" y="448">
+   <point/>
+  </object>
+  <object id="67" x="640" y="192">
+   <point/>
+  </object>
+  <object id="68" type="Heart" gid="1197" x="384" y="128" width="32" height="32"/>
+  <object id="74" type="Spike" gid="1201" x="96" y="480" width="64" height="20"/>
+  <object id="75" type="Spike" gid="1201" x="256" y="480" width="96" height="20"/>
+ </objectgroup>
+ <objectgroup id="3" name="Platforms">
+  <object id="4" x="0" y="480" width="768" height="32"/>
+  <object id="5" x="0" y="416" width="96" height="64"/>
+  <object id="6" x="160" y="384" width="96" height="96"/>
+  <object id="7" x="352" y="416" width="96" height="64"/>
+  <object id="8" x="672" y="416" width="96" height="64"/>
+  <object id="9" x="32" y="288" width="64" height="32"/>
+  <object id="10" x="0" y="0" width="32" height="416"/>
+  <object id="11" x="32" y="96" width="256" height="32"/>
+  <object id="12" x="128" y="192" width="224" height="32"/>
+  <object id="13" x="32" y="0" width="736" height="32"/>
+  <object id="14" x="736" y="32" width="32" height="384"/>
+  <object id="15" x="672" y="288" width="64" height="32"/>
+  <object id="16" x="576" y="352" width="96" height="32"/>
+  <object id="17" x="640" y="128" width="96" height="32"/>
+  <object id="18" x="576" y="256" width="32" height="96"/>
+  <object id="20" x="352" y="32" width="32" height="192"/>
+  <object id="21" x="384" y="128" width="96" height="32"/>
+  <object id="22" x="544" y="32" width="32" height="128"/>
+  <object id="23" x="352" y="224" width="320" height="32">
+   <properties>
+    <property name="NextLevel" value="Level1.tmx"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

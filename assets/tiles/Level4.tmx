@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="24" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="73">
+ <tileset firstgid="1" source="[32x32] Dungeon Bricks Shadow.tsx"/>
+ <tileset firstgid="57" source="[32x32] Dungeon Bricks Plain.tsx"/>
+ <tileset firstgid="113" source="Larry_No_Background.tsx"/>
+ <tileset firstgid="1013" source="Full.tsx"/>
+ <tileset firstgid="1069" source="Pixel Heart Sprite Sheet 32x32.tsx"/>
+ <tileset firstgid="1072" source="AnimationSheet_Character.tsx"/>
+ <tileset firstgid="1144" source="4 Conjoined Spikes.tsx"/>
+ <layer id="1" name="Слой тайлов 1" width="24" height="16">
+  <data encoding="base64">
+   PAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAA8AAAAPAAAADwAAAAKAAAAPAAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAA8AAAAPAAAAAoAAAA8AAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAADwAAAA8AAAAPAAAADwAAAAKAAAACgAAAAoAAAA8AAAAPAAAADwAAAAKAAAACgAAAAoAAAA8AAAAPAAAAAoAAAAKAAAACgAAAAoAAAA8AAAAPAAAADwAAAAKAAAACgAAADwAAAAKAAAACgAAAAoAAAA8AAAAPAAAADwAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAA8AAAAPAAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAADwAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAADwAAAA8AAAAPAAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAADwAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAA8AAAAPAAAADwAAAA8AAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAAPAAAADwAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAAPAAAADwAAAAKAAAACgAAAAoAAAA8AAAAPAAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAAPAAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAADwAAAAKAAAACgAAAAoAAAA8AAAAPAAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAAPAAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAAAoAAAAKAAAACgAAAAoAAAA8AAAAPAAAAAoAAAAKAAAAPAAAAAoAAAAKAAAACgAAADwAAAA8AAAAPAAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAA8AAAAPAAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAAPAAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAA8AAAAPAAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAAPAAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAA8AAAAPAAAADwAAAA8AAAACgAAAAoAAAAKAAAACgAAAAoAAAA8AAAAPAAAAAoAAAAKAAAACgAAAAoAAAA8AAAAPAAAADwAAAA8AAAAPAAAAAoAAAAKAAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAA
+  </data>
+ </layer>
+ <objectgroup id="2" name="SpawnPoints">
+  <object id="1" type="Player" gid="143" x="32" y="352" width="32" height="32"/>
+  <object id="3" type="Barrel" gid="1019" x="32" y="224" width="32" height="32"/>
+  <object id="44" type="Barrel" gid="1019" x="192" y="128" width="32" height="32"/>
+  <object id="45" type="Barrel" gid="1019" x="224" y="128" width="32" height="32"/>
+  <object id="46" type="Barrel" gid="1019" x="160" y="128" width="32" height="32"/>
+  <object id="47" type="Chest" gid="1033" x="32" y="64" width="32" height="32"/>
+  <object id="48" type="Heart" gid="1069" x="576" y="96" width="32" height="32"/>
+  <object id="49" type="Barrel" gid="1019" x="608" y="96" width="32" height="32"/>
+  <object id="50" type="Barrel" gid="1019" x="704" y="288" width="32" height="32"/>
+  <object id="51" type="Barrel" gid="1019" x="672" y="288" width="32" height="32"/>
+  <object id="52" type="Barrel" gid="1019" x="640" y="288" width="32" height="32"/>
+  <object id="54" type="Exit" gid="1047" x="672" y="418" width="64" height="64">
+   <properties>
+    <property name="NextLevel" value="Level5.tmx"/>
+   </properties>
+  </object>
+  <object id="55" type="Enemy2" gid="1072" x="448" y="416" width="32" height="32">
+   <properties>
+    <property name="TargetPoint" type="object" value="56"/>
+   </properties>
+  </object>
+  <object id="56" x="576" y="384">
+   <point/>
+  </object>
+  <object id="57" type="Enemy2" gid="1072" x="416" y="320" width="32" height="32">
+   <properties>
+    <property name="TargetPoint" type="object" value="58"/>
+   </properties>
+  </object>
+  <object id="58" x="480" y="288">
+   <point/>
+  </object>
+  <object id="59" type="Spike" gid="1144" x="96" y="480" width="96" height="20"/>
+  <object id="60" type="Spike" gid="1144" x="192" y="480" width="96" height="20"/>
+  <object id="61" type="Spike" gid="1144" x="288" y="480" width="96" height="20"/>
+  <object id="62" type="Spike" gid="1144" x="384" y="480" width="96" height="20"/>
+  <object id="63" type="Spike" gid="1144" x="480" y="480" width="96" height="20"/>
+  <object id="64" type="Spike" gid="1144" x="576" y="480" width="96" height="20"/>
+  <object id="67" type="Enemy2" gid="1072" x="320" y="96" width="32" height="32">
+   <properties>
+    <property name="TargetPoint" type="object" value="68"/>
+   </properties>
+  </object>
+  <object id="68" x="416" y="64">
+   <point/>
+  </object>
+  <object id="69" type="Spike" gid="1144" x="448" y="128" width="96" height="20"/>
+  <object id="72" type="Spike" gid="1144" x="64" y="96" width="32" height="15"/>
+ </objectgroup>
+ <objectgroup id="3" name="Platforms">
+  <object id="13" x="0" y="416" width="96" height="96"/>
+  <object id="14" x="96" y="480" width="672" height="32"/>
+  <object id="15" x="0" y="0" width="32" height="416"/>
+  <object id="16" x="32" y="224" width="64" height="32"/>
+  <object id="17" x="32" y="64" width="32" height="32"/>
+  <object id="18" x="64" y="96" width="32" height="32"/>
+  <object id="19" x="96" y="64" width="32" height="32"/>
+  <object id="20" x="160" y="128" width="96" height="32"/>
+  <object id="21" x="160" y="320" width="64" height="32"/>
+  <object id="26" x="736" y="0" width="32" height="480"/>
+  <object id="30" x="704" y="160" width="32" height="32"/>
+  <object id="34" x="32" y="0" width="704" height="32"/>
+  <object id="35" x="576" y="224" width="64" height="32"/>
+  <object id="36" x="608" y="256" width="32" height="64"/>
+  <object id="37" x="640" y="288" width="96" height="32"/>
+  <object id="38" x="416" y="320" width="96" height="32"/>
+  <object id="39" x="320" y="96" width="128" height="32"/>
+  <object id="40" x="448" y="128" width="96" height="32"/>
+  <object id="41" x="544" y="96" width="96" height="32"/>
+  <object id="42" x="256" y="416" width="64" height="32"/>
+  <object id="43" x="448" y="416" width="160" height="32"/>
+  <object id="66" x="672" y="416" width="64" height="64"/>
+  <object id="70" x="288" y="224" width="32" height="192"/>
+  <object id="71" x="320" y="128" width="32" height="128"/>
+ </objectgroup>
+</map>
